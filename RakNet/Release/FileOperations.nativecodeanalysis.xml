@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26461</DEFECTCODE>
+    <DESCRIPTION>Аргумент указателя "data" для функции "WriteFileWithDirectories" может быть помечен как указатель на const (con.3).</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Символ "pathCopy" никогда не проверяется на равенство null, он может быть помечен как not_null (f.23).</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Функция "WriteFileWithDirectories" может быть объявлена как "noexcept" (f.6).</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Переменная "index" не инициализирована. Всегда инициализируйте объект (type.5).</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>index</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Переменная "fp" не инициализирована. Всегда инициализируйте объект (type.5).</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>fp</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Переменная "pathCopy" не инициализирована. Всегда инициализируйте объект (type.5).</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pathCopy</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Переменная "res" не инициализирована. Всегда инициализируйте объект (type.5).</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>res</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Не используйте приведение в стиле C (type.4).</DESCRIPTION>
+    <FUNCTION>WriteFileWithDirectories</FUNCTION>
+    <DECORATED>?WriteFileWithDirectories@@YA_NPBDPADI@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26497</DEFECTCODE>
+    <DESCRIPTION>Вы можете создать constexpr "IsSlash", если он не содержит неопределенное поведение (f.4).</DESCRIPTION>
+    <FUNCTION>IsSlash</FUNCTION>
+    <DECORATED>?IsSlash@@YA_NE@Z</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Функция "IsSlash" может быть объявлена как "noexcept" (f.6).</DESCRIPTION>
+    <FUNCTION>IsSlash</FUNCTION>
+    <DECORATED>?IsSlash@@YA_NE@Z</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>107</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Функция "AddSlash" может быть объявлена как "noexcept" (f.6).</DESCRIPTION>
+    <FUNCTION>AddSlash</FUNCTION>
+    <DECORATED>?AddSlash@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>109</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>AddSlash</FUNCTION>
+    <DECORATED>?AddSlash@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>113</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>AddSlash</FUNCTION>
+    <DECORATED>?AddSlash@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>114</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>AddSlash</FUNCTION>
+    <DECORATED>?AddSlash@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>115</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>AddSlash</FUNCTION>
+    <DECORATED>?AddSlash@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>117</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>AddSlash</FUNCTION>
+    <DECORATED>?AddSlash@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>AddSlash</FUNCTION>
+    <DECORATED>?AddSlash@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>112</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Не используйте приведение в стиле C (type.4).</DESCRIPTION>
+    <FUNCTION>AddSlash</FUNCTION>
+    <DECORATED>?AddSlash@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>126</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Выражение "baseDirWithStars": не допускайте вырождения массива в указатель (bounds.3).</DESCRIPTION>
+    <FUNCTION>DirectoryExists</FUNCTION>
+    <DECORATED>?DirectoryExists@@YA_NPBD@Z</DECORATED>
+    <FUNCLINE>121</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>127</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Выражение "baseDirWithStars": не допускайте вырождения массива в указатель (bounds.3).</DESCRIPTION>
+    <FUNCTION>DirectoryExists</FUNCTION>
+    <DECORATED>?DirectoryExists@@YA_NPBD@Z</DECORATED>
+    <FUNCLINE>121</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>128</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Выражение "baseDirWithStars": не допускайте вырождения массива в указатель (bounds.3).</DESCRIPTION>
+    <FUNCTION>DirectoryExists</FUNCTION>
+    <DECORATED>?DirectoryExists@@YA_NPBD@Z</DECORATED>
+    <FUNCLINE>121</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>129</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Выражение "baseDirWithStars": не допускайте вырождения массива в указатель (bounds.3).</DESCRIPTION>
+    <FUNCTION>DirectoryExists</FUNCTION>
+    <DECORATED>?DirectoryExists@@YA_NPBD@Z</DECORATED>
+    <FUNCLINE>121</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26429</DEFECTCODE>
+    <DESCRIPTION>Символ "str" никогда не проверяется на равенство null, он может быть помечен как not_null (f.23).</DESCRIPTION>
+    <FUNCTION>QuoteIfSpaces</FUNCTION>
+    <DECORATED>?QuoteIfSpaces@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>135</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Функция "QuoteIfSpaces" может быть объявлена как "noexcept" (f.6).</DESCRIPTION>
+    <FUNCTION>QuoteIfSpaces</FUNCTION>
+    <DECORATED>?QuoteIfSpaces@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>139</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>QuoteIfSpaces</FUNCTION>
+    <DECORATED>?QuoteIfSpaces@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>141</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>QuoteIfSpaces</FUNCTION>
+    <DECORATED>?QuoteIfSpaces@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>150</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>QuoteIfSpaces</FUNCTION>
+    <DECORATED>?QuoteIfSpaces@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>151</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>QuoteIfSpaces</FUNCTION>
+    <DECORATED>?QuoteIfSpaces@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>152</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>QuoteIfSpaces</FUNCTION>
+    <DECORATED>?QuoteIfSpaces@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>153</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26481</DEFECTCODE>
+    <DESCRIPTION>Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).
+</DESCRIPTION>
+    <FUNCTION>QuoteIfSpaces</FUNCTION>
+    <DECORATED>?QuoteIfSpaces@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>137</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Переменная "i" не инициализирована. Всегда инициализируйте объект (type.5).</DESCRIPTION>
+    <FUNCTION>QuoteIfSpaces</FUNCTION>
+    <DECORATED>?QuoteIfSpaces@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>i</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>149</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Не используйте приведение в стиле C (type.4).</DESCRIPTION>
+    <FUNCTION>QuoteIfSpaces</FUNCTION>
+    <DECORATED>?QuoteIfSpaces@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>135</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'fileLength' does not change after construction, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>GetFileLength</FUNCTION>
+    <DECORATED>?GetFileLength@@YAIPBD@Z</DECORATED>
+    <FUNCLINE>156</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FileOperations.cpp</FILENAME>
+      <LINE>156</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Функция "GetFileLength" может быть объявлена как "noexcept" (f.6).</DESCRIPTION>
+    <FUNCTION>GetFileLength</FUNCTION>
+    <DECORATED>?GetFileLength@@YAIPBD@Z</DECORATED>
+    <FUNCLINE>156</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

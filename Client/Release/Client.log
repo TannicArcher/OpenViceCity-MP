@@ -1,0 +1,3 @@
+﻿  cmdprocs.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(D:\VCMPDEVELOPING\Client\Release\Client.dll) не соответствует значению свойства выходного файла (D:\VCMPDEVELOPING\bin\Client.dll) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+LINK : fatal error LNK1181: не удается открыть входной файл "D:\VCMPDEVELOPING\Release\RakNet.lib"

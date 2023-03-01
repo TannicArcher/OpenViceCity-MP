@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>EpochTimeToString.cpp</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 't' does not change after construction, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>EpochTimeToString</FUNCTION>
+    <DECORATED>?EpochTimeToString@@YAPAD_J@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>EpochTimeToString.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Использовать gsl::at() вместо непроверенного оператора с нижним индексом (bounds.4).</DESCRIPTION>
+    <FUNCTION>EpochTimeToString</FUNCTION>
+    <DECORATED>?EpochTimeToString@@YAPAD_J@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>EpochTimeToString.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Использовать gsl::at() вместо непроверенного оператора с нижним индексом (bounds.4).</DESCRIPTION>
+    <FUNCTION>EpochTimeToString</FUNCTION>
+    <DECORATED>?EpochTimeToString@@YAPAD_J@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>EpochTimeToString.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Функция "EpochTimeToString" может быть объявлена как "noexcept" (f.6).</DESCRIPTION>
+    <FUNCTION>EpochTimeToString</FUNCTION>
+    <DECORATED>?EpochTimeToString@@YAPAD_J@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>EpochTimeToString.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>В качестве индексов массивов используйте только константные выражения (bounds.2).</DESCRIPTION>
+    <FUNCTION>EpochTimeToString</FUNCTION>
+    <DECORATED>?EpochTimeToString@@YAPAD_J@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>EpochTimeToString.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Выражение "`EpochTimeToString'::`2'::text[`EpochTimeToString'::`2'::textIndex]": не допускайте вырождения массива в указатель (bounds.3).</DESCRIPTION>
+    <FUNCTION>EpochTimeToString</FUNCTION>
+    <DECORATED>?EpochTimeToString@@YAPAD_J@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>EpochTimeToString.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>В качестве индексов массивов используйте только константные выражения (bounds.2).</DESCRIPTION>
+    <FUNCTION>EpochTimeToString</FUNCTION>
+    <DECORATED>?EpochTimeToString@@YAPAD_J@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>EpochTimeToString.cpp</FILENAME>
+      <LINE>34</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Выражение "`EpochTimeToString'::`2'::text[`EpochTimeToString'::`2'::textIndex]": не допускайте вырождения массива в указатель (bounds.3).</DESCRIPTION>
+    <FUNCTION>EpochTimeToString</FUNCTION>
+    <DECORATED>?EpochTimeToString@@YAPAD_J@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>EpochTimeToString.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26494</DEFECTCODE>
+    <DESCRIPTION>Переменная "timeinfo" не инициализирована. Всегда инициализируйте объект (type.5).</DESCRIPTION>
+    <FUNCTION>EpochTimeToString</FUNCTION>
+    <DECORATED>?EpochTimeToString@@YAPAD_J@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>timeinfo</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,1244 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26461",
+          "message": {
+            "text": "Аргумент указателя \"data\" для функции \"WriteFileWithDirectories\" может быть помечен как указатель на const (con.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 6,
+                  "endLine": 24,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26429",
+          "message": {
+            "text": "Символ \"pathCopy\" никогда не проверяется на равенство null, он может быть помечен как not_null (f.23)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 8,
+                  "endLine": 28,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Функция \"WriteFileWithDirectories\" может быть объявлена как \"noexcept\" (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 6,
+                  "endLine": 24,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 20,
+                  "endLine": 31,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 6,
+                  "endLine": 39,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 11,
+                  "endLine": 42,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 9,
+                  "endLine": 44,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 37,
+                  "endLine": 44,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 5,
+                  "endLine": 46,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 5,
+                  "endLine": 61,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "Переменная \"index\" не инициализирована. Всегда инициализируйте объект (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 6,
+                  "endLine": 26,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "index"
+          }
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "Переменная \"fp\" не инициализирована. Всегда инициализируйте объект (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 8,
+                  "endLine": 27,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "fp"
+          }
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "Переменная \"pathCopy\" не инициализирована. Всегда инициализируйте объект (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 8,
+                  "endLine": 28,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pathCopy"
+          }
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "Переменная \"res\" не инициализирована. Всегда инициализируйте объект (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 6,
+                  "endLine": 29,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "res"
+          }
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Не используйте приведение в стиле C (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 13,
+                  "endLine": 34,
+                  "endColumn": 55
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26497",
+          "message": {
+            "text": "Вы можете создать constexpr \"IsSlash\", если он не содержит неопределенное поведение (f.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 6,
+                  "endLine": 102,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?IsSlash@@YA_NE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Функция \"IsSlash\" может быть объявлена как \"noexcept\" (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 6,
+                  "endLine": 102,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?IsSlash@@YA_NE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Функция \"AddSlash\" может быть объявлена как \"noexcept\" (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 6,
+                  "endLine": 107,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?AddSlash@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 18,
+                  "endLine": 109,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?AddSlash@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 6,
+                  "endLine": 113,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?AddSlash@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 3,
+                  "endLine": 114,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?AddSlash@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 11,
+                  "endLine": 115,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?AddSlash@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 3,
+                  "endLine": 117,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?AddSlash@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 3,
+                  "endLine": 118,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?AddSlash@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Не используйте приведение в стиле C (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 20,
+                  "endLine": 112,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?AddSlash@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "Выражение \"baseDirWithStars\": не допускайте вырождения массива в указатель (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 2,
+                  "endLine": 126,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?DirectoryExists@@YA_NPBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "Выражение \"baseDirWithStars\": не допускайте вырождения массива в указатель (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 2,
+                  "endLine": 127,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?DirectoryExists@@YA_NPBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "Выражение \"baseDirWithStars\": не допускайте вырождения массива в указатель (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 2,
+                  "endLine": 128,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?DirectoryExists@@YA_NPBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "Выражение \"baseDirWithStars\": не допускайте вырождения массива в указатель (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 129,
+                  "startColumn": 6,
+                  "endLine": 129,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?DirectoryExists@@YA_NPBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26429",
+          "message": {
+            "text": "Символ \"str\" никогда не проверяется на равенство null, он может быть помечен как not_null (f.23)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 6,
+                  "endLine": 135,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?QuoteIfSpaces@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Функция \"QuoteIfSpaces\" может быть объявлена как \"noexcept\" (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 6,
+                  "endLine": 135,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?QuoteIfSpaces@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 139,
+                  "startColumn": 12,
+                  "endLine": 139,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?QuoteIfSpaces@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 7,
+                  "endLine": 141,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?QuoteIfSpaces@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 3,
+                  "endLine": 150,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?QuoteIfSpaces@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 151,
+                  "startColumn": 3,
+                  "endLine": 151,
+                  "endColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?QuoteIfSpaces@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 3,
+                  "endLine": 152,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?QuoteIfSpaces@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26481",
+          "message": {
+            "text": "Не используйте арифметику указателей; вместо этого используйте 'span' (bounds.1).\n"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 3,
+                  "endLine": 153,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?QuoteIfSpaces@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26494",
+          "message": {
+            "text": "Переменная \"i\" не инициализирована. Всегда инициализируйте объект (type.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 11,
+                  "endLine": 137,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?QuoteIfSpaces@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "i"
+          }
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Не используйте приведение в стиле C (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 11,
+                  "endLine": 149,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?QuoteIfSpaces@@YAXPAD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'fileLength' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 161,
+                  "startColumn": 15,
+                  "endLine": 161,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetFileLength@@YAIPBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26440",
+          "message": {
+            "text": "Функция \"GetFileLength\" может быть объявлена как \"noexcept\" (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 14,
+                  "endLine": 156,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetFileLength@@YAIPBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30147.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00C2D1C0 -il C:\\Users\\RuslanS\\AppData\\Local\\Temp\\_CL_67fbbb56ast -typedil -f FileOperations.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930147 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -GF -Og -Ot -Oi -ltcg -DCODE_ANALYSIS -D_CRT_SECURE_NO_WARNINGS -D_CRT_SECURE_NO_DEPRECATE -D_SERVER -D_MBCS -EHs -D_CPPUNWIND -EHc -MT -clrNoPureCRT -D_MT -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -FoRelease\\FileOperations.obj -FdD:\\VCMPDEVELOPING\\Release\\RakNet.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\VCMPDEVELOPING\\RakNet -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\AllRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\VCMPDEVELOPING\\RakNet\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I D:\\VCMPDEVELOPING\\RakNet\\Include\\um -I D:\\VCMPDEVELOPING\\RakNet\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/FormatString.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8906f35382798d0e16a081d5f6bb3dd7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/formatstring.h"
+          },
+          "hashes": {
+            "md5": "744159b64803114510c5b002e57ae0ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/export.h"
+          },
+          "hashes": {
+            "md5": "87dbce19ee95a8ae5740ef5083a3e63d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/raknetdefines.h"
+          },
+          "hashes": {
+            "md5": "4a947298774e5409c52b403e0b7f8e52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/raknetdefinesoverrides.h"
+          },
+          "hashes": {
+            "md5": "8b61ae32f834c32c612a101daf7d185c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/linuxstrings.h"
+          },
+          "hashes": {
+            "md5": "d9e12550344a9909df53cc8b9999bc96"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "5c471bde703cb6a3f1e13ae278fe2f08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/rakmemoryoverride.h"
+          },
+          "hashes": {
+            "md5": "1ddc900d259b1d677593422af12679c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/rakalloca.h"
+          },
+          "hashes": {
+            "md5": "6365877e95864938f7c58a8e97dd791d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/_findfirst.h"
+          },
+          "hashes": {
+            "md5": "8ae0d9794b67a5434adbeae88f9a3570"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/fileoperations.h"
+          },
+          "hashes": {
+            "md5": "66a751a675f1a4e7f0bcc7ac8d22545c"
+          }
+        }
+      ]
+    }
+  ]
+}

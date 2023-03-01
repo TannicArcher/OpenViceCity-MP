@@ -1,0 +1,15 @@
+﻿  SILLYDataSource.cpp
+  SILLYFileDataSource.cpp
+  SILLYImage.cpp
+  SILLYImageContext.cpp
+  SILLYImageLoader.cpp
+  SILLYImageLoaderManager.cpp
+  SILLYMemoryDataSource.cpp
+  SILLYJPGImageContext.cpp
+  SILLYJPGImageLoader.cpp
+  SILLYPNGImageContext.cpp
+  SILLYPNGImageLoader.cpp
+  SILLYTGAImageContext.cpp
+  SILLYTGAImageLoader.cpp
+  Создание кода...
+  SILLY.vcxproj -> D:\VCMPDEVELOPING\Vendor\CEGUI\dependencies\SILLY-0.1.0\bin\SILLY.lib

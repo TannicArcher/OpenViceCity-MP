@@ -1,0 +1,39 @@
+﻿  FullyConnectedMesh2.cpp
+  PacketizedTCP.cpp
+  PacketLogger.cpp
+D:\VCMPDEVELOPING\RakNet\PacketLogger.cpp(77,6): error C3688: недопустимый литеральный суффикс "PRINTF_64_BIT_MODIFIER"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""PRINTF_64_BIT_MODIFIER"
+D:\VCMPDEVELOPING\RakNet\PacketLogger.cpp(136,6): error C3688: недопустимый литеральный суффикс "PRINTF_64_BIT_MODIFIER"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""PRINTF_64_BIT_MODIFIER"
+D:\VCMPDEVELOPING\RakNet\PacketLogger.cpp(156,6): error C3688: недопустимый литеральный суффикс "PRINTF_64_BIT_MODIFIER"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""PRINTF_64_BIT_MODIFIER"
+D:\VCMPDEVELOPING\RakNet\PacketLogger.cpp(212,6): error C3688: недопустимый литеральный суффикс "PRINTF_64_BIT_MODIFIER"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""PRINTF_64_BIT_MODIFIER"
+  PluginInterface2.cpp
+  RakNetStatistics.cpp
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(30,40): error C3688: недопустимый литеральный суффикс "PRINTF_64_BIT_MODIFIER"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""PRINTF_64_BIT_MODIFIER"
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(27,3): error C2664: "int sprintf(char *const ,const char *const ,...)": невозможно преобразовать аргумент 2 из "uint64_t" в "const char *const "
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(31,44): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(1764,37): message : см. объявление "sprintf"
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(47,69): error C3688: недопустимый литеральный суффикс "PRINTF_64_BIT_MODIFIER"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""PRINTF_64_BIT_MODIFIER"
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(38,3): error C2664: "int sprintf(char *const ,const char *const ,...)": невозможно преобразовать аргумент 2 из "uint64_t" в "const char *const "
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(48,44): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(1764,37): message : см. объявление "sprintf"
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(63,94): error C3688: недопустимый литеральный суффикс "PRINTF_64_BIT_MODIFIER"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""PRINTF_64_BIT_MODIFIER"
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(62,4): error C2664: "int sprintf(char *const ,const char *const ,...)": невозможно преобразовать аргумент 2 из "uint64_t" в "const char *const "
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(64,6): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(1764,37): message : см. объявление "sprintf"
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(73,77): error C3688: недопустимый литеральный суффикс "PRINTF_64_BIT_MODIFIER"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""PRINTF_64_BIT_MODIFIER"
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(72,4): error C2664: "int sprintf(char *const ,const char *const ,...)": невозможно преобразовать аргумент 2 из "uint64_t" в "const char *const "
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(74,6): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(1764,37): message : см. объявление "sprintf"
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(103,71): error C3688: недопустимый литеральный суффикс "PRINTF_64_BIT_MODIFIER"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""PRINTF_64_BIT_MODIFIER"
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(82,3): error C2664: "int sprintf(char *const ,const char *const ,...)": невозможно преобразовать аргумент 2 из "uint64_t" в "const char *const "
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(104,44): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(1764,37): message : см. объявление "sprintf"
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(131,94): error C3688: недопустимый литеральный суффикс "PRINTF_64_BIT_MODIFIER"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""PRINTF_64_BIT_MODIFIER"
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(130,4): error C2664: "int sprintf(char *const ,const char *const ,...)": невозможно преобразовать аргумент 2 из "uint64_t" в "const char *const "
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(132,6): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(1764,37): message : см. объявление "sprintf"
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(141,77): error C3688: недопустимый литеральный суффикс "PRINTF_64_BIT_MODIFIER"; не удалось найти литеральный оператор или шаблон литерального оператора "operator ""PRINTF_64_BIT_MODIFIER"
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(140,4): error C2664: "int sprintf(char *const ,const char *const ,...)": невозможно преобразовать аргумент 2 из "uint64_t" в "const char *const "
+D:\VCMPDEVELOPING\RakNet\RakNetStatistics.cpp(142,6): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h(1764,37): message : см. объявление "sprintf"
+  RakNetTransport2.cpp
+  SecureHandshake.cpp

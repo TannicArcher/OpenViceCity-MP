@@ -1,0 +1,8 @@
+﻿  CEGUISILLYImageCodec.cpp
+D:\VCMPDEVELOPING\Vendor\CEGUI\cegui\src\ImageCodecModules\SILLYImageCodec\CEGUISILLYImageCodec.cpp(88,62): warning C4244: аргумент: преобразование "size_t" в "float", возможна потеря данных
+D:\VCMPDEVELOPING\Vendor\CEGUI\cegui\src\ImageCodecModules\SILLYImageCodec\CEGUISILLYImageCodec.cpp(88,45): warning C4244: аргумент: преобразование "size_t" в "float", возможна потеря данных
+  CEGUISILLYImageCodecModule.cpp
+  Создание кода...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(D:\VCMPDEVELOPING\Vendor\CEGUI\lib\CEGUISILLYImageCodec.lib) не соответствует значению свойства выходного файла (D:\VCMPDEVELOPING\Vendor\CEGUI\lib\CEGUISILLYImageCodec_Static.lib) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1547,5): warning MSB8012: TargetName(CEGUISILLYImageCodec) не соответствует значению свойства выходного файла (CEGUISILLYImageCodec_Static) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+  CEGUISILLYImageCodec.vcxproj -> D:\VCMPDEVELOPING\Vendor\CEGUI\lib\CEGUISILLYImageCodec.lib

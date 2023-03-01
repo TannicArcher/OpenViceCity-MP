@@ -1,0 +1,45 @@
+﻿  FalButton.cpp
+  FalDefault.cpp
+  FalEditbox.cpp
+  FalEditboxProperties.cpp
+  FalFrameWindow.cpp
+  FalItemEntry.cpp
+  FalItemListbox.cpp
+  FalListbox.cpp
+  FalListHeader.cpp
+  FalListHeaderProperties.cpp
+  FalListHeaderSegment.cpp
+  FalMenubar.cpp
+  FalMenuItem.cpp
+  FalModule.cpp
+  FalMultiColumnList.cpp
+  FalMultiLineEditbox.cpp
+  FalMultiLineEditboxProperties.cpp
+  FalPopupMenu.cpp
+  FalProgressBar.cpp
+  FalProgressBarProperties.cpp
+  Создание кода...
+  Компиляция...
+  FalScrollablePane.cpp
+  FalScrollbar.cpp
+  FalScrollbarProperties.cpp
+  FalSlider.cpp
+  FalSliderProperties.cpp
+  FalStatic.cpp
+  FalStaticImage.cpp
+  FalStaticImageProperties.cpp
+  FalStaticProperties.cpp
+  FalStaticText.cpp
+  FalStaticTextProperties.cpp
+  FalSystemButton.cpp
+  FalTabButton.cpp
+  FalTabControl.cpp
+  FalTabControlProperties.cpp
+  FalTitlebar.cpp
+  FalToggleButton.cpp
+  FalTooltip.cpp
+  FalTree.cpp
+  Создание кода...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(D:\VCMPDEVELOPING\Vendor\CEGUI\lib\CEGUIFalagardWRBase.lib) не соответствует значению свойства выходного файла (D:\VCMPDEVELOPING\Vendor\CEGUI\lib\CEGUIFalagardWRBase_Static.lib) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1547,5): warning MSB8012: TargetName(CEGUIFalagardWRBase) не соответствует значению свойства выходного файла (CEGUIFalagardWRBase_Static) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+  CEGUIFalagardWRBase.vcxproj -> D:\VCMPDEVELOPING\Vendor\CEGUI\lib\CEGUIFalagardWRBase.lib

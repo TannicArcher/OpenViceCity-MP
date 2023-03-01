@@ -1,0 +1,215 @@
+﻿  CEGUIAffector.cpp
+  CEGUIAnimation.cpp
+  CEGUIAnimation_xmlHandler.cpp
+  CEGUIAnimationInstance.cpp
+  CEGUIAnimationManager.cpp
+  CEGUIBase.cpp
+  CEGUIBasicInterpolators.cpp
+  CEGUIBasicRenderedStringParser.cpp
+  CEGUIBiDiVisualMapping.cpp
+  CEGUIBoundSlot.cpp
+  CEGUICentredRenderedString.cpp
+  CEGUIChainedXMLHandler.cpp
+  CEGUIcolour.cpp
+  CEGUIColourRect.cpp
+  CEGUIConfig_xmlHandler.cpp
+  CEGUICoordConverter.cpp
+  CEGUIDataContainer.cpp
+  CEGUIDefaultLogger.cpp
+  CEGUIDefaultRenderedStringParser.cpp
+  CEGUIDefaultResourceProvider.cpp
+  Создание кода...
+  Компиляция...
+  CEGUIDynamicModule.cpp
+  CEGUIEvent.cpp
+  CEGUIEventArgs.cpp
+  CEGUIEventSet.cpp
+  CEGUIEventSignal.cpp
+  CEGUIEventSignalSet.cpp
+  CEGUIExceptions.cpp
+  CEGUIFactoryModule.cpp
+  CEGUIFont.cpp
+  CEGUIFont_xmlHandler.cpp
+  CEGUIFontManager.cpp
+  CEGUIFontProperties.cpp
+  CEGUIFormattedRenderedString.cpp
+  CEGUIFreeTypeFont.cpp
+D:\VCMPDEVELOPING\Vendor\CEGUI\cegui\src\CEGUIFreeTypeFont.cpp(285,67): warning C4244: аргумент: преобразование "CEGUI::uint" в "float", возможна потеря данных
+D:\VCMPDEVELOPING\Vendor\CEGUI\cegui\src\CEGUIFreeTypeFont.cpp(285,58): warning C4244: аргумент: преобразование "CEGUI::uint" в "float", возможна потеря данных
+D:\VCMPDEVELOPING\Vendor\CEGUI\cegui\src\CEGUIFreeTypeFont.cpp(379,18): warning C4244: инициализация: преобразование "const float" в "CEGUI::uint", возможна потеря данных
+D:\VCMPDEVELOPING\Vendor\CEGUI\cegui\src\CEGUIFreeTypeFont.cpp(380,18): warning C4244: инициализация: преобразование "const float" в "CEGUI::uint", возможна потеря данных
+  CEGUIGeometryBuffer.cpp
+  CEGUIGlobalEventSet.cpp
+  CEGUIGUILayout_xmlHandler.cpp
+  CEGUIImage.cpp
+  CEGUIImageCodec.cpp
+  CEGUIImageset.cpp
+  Создание кода...
+  Компиляция...
+  CEGUIImageset_xmlHandler.cpp
+  CEGUIImagesetManager.cpp
+  CEGUIJustifiedRenderedString.cpp
+  CEGUIJustifiedRenderedStringWordWrapper.cpp
+  CEGUIKeyFrame.cpp
+  CEGUILeftAlignedRenderedString.cpp
+  CEGUILogger.cpp
+  CEGUIMinizipResourceProvider.cpp
+  CEGUIMouseCursor.cpp
+  CEGUINamedXMLResourceManager.cpp
+  CEGUIPCRERegexMatcher.cpp
+  CEGUIPixmapFont.cpp
+  CEGUIProperty.cpp
+  CEGUIPropertyHelper.cpp
+  CEGUIPropertySet.cpp
+  CEGUIRect.cpp
+  CEGUIRenderedString.cpp
+  CEGUIRenderedStringComponent.cpp
+  CEGUIRenderedStringImageComponent.cpp
+  CEGUIRenderedStringTextComponent.cpp
+  Создание кода...
+  Компиляция...
+  CEGUIRenderedStringWidgetComponent.cpp
+  CEGUIRenderEffectManager.cpp
+  CEGUIRenderingRoot.cpp
+  CEGUIRenderingSurface.cpp
+  CEGUIRenderingWindow.cpp
+  CEGUIRenderQueue.cpp
+  CEGUIRightAlignedRenderedString.cpp
+  CEGUIScheme.cpp
+  CEGUIScheme_xmlHandler.cpp
+  CEGUISchemeManager.cpp
+  CEGUIScriptModule.cpp
+  CEGUISize.cpp
+  CEGUIString.cpp
+  CEGUISubscriberSlot.cpp
+  CEGUISystem.cpp
+  CEGUITextUtils.cpp
+  CEGUIWindow.cpp
+  CEGUIWindowFactory.cpp
+  CEGUIWindowFactoryManager.cpp
+  CEGUIWindowManager.cpp
+  Создание кода...
+  Компиляция...
+  CEGUIWindowProperties.cpp
+  CEGUIWindowRenderer.cpp
+  CEGUIWindowRendererManager.cpp
+  CEGUIWindowRendererModule.cpp
+  CEGUIWRFactoryRegisterer.cpp
+  CEGUIXMLAttributes.cpp
+  CEGUIXMLHandler.cpp
+  CEGUIXMLParser.cpp
+  CEGUIXMLSerializer.cpp
+  CEGUIButtonBase.cpp
+  CEGUICheckbox.cpp
+  CEGUICheckboxProperties.cpp
+  CEGUIClippedContainer.cpp
+  CEGUICombobox.cpp
+  CEGUIComboboxProperties.cpp
+  CEGUIComboDropList.cpp
+  CEGUIDragContainer.cpp
+  CEGUIDragContainerProperties.cpp
+  CEGUIEditbox.cpp
+  CEGUIEditboxProperties.cpp
+  Создание кода...
+  Компиляция...
+  CEGUIFrameWindow.cpp
+  CEGUIFrameWindowProperties.cpp
+  CEGUIGridLayoutContainer.cpp
+  CEGUIGridLayoutContainerProperties.cpp
+  CEGUIGroupBox.cpp
+  CEGUIGUISheet.cpp
+  CEGUIHorizontalLayoutContainer.cpp
+  CEGUIItemEntry.cpp
+  CEGUIItemEntryProperties.cpp
+  CEGUIItemListBase.cpp
+  CEGUIItemListBaseProperties.cpp
+  CEGUIItemListbox.cpp
+  CEGUIItemListboxProperties.cpp
+  CEGUILayoutContainer.cpp
+  CEGUIListbox.cpp
+  CEGUIListboxItem.cpp
+  CEGUIListboxProperties.cpp
+  CEGUIListboxTextItem.cpp
+  CEGUIListHeader.cpp
+  CEGUIListHeaderProperties.cpp
+  Создание кода...
+  Компиляция...
+  CEGUIListHeaderSegment.cpp
+  CEGUIListHeaderSegmentProperties.cpp
+  CEGUIMenubar.cpp
+  CEGUIMenuBase.cpp
+  CEGUIMenuBaseProperties.cpp
+  CEGUIMenuItem.cpp
+  CEGUIMultiColumnList.cpp
+  CEGUIMultiColumnListProperties.cpp
+  CEGUIMultiLineEditbox.cpp
+  CEGUIMultiLineEditboxProperties.cpp
+  CEGUIPopupMenu.cpp
+  CEGUIPopupMenuProperties.cpp
+  CEGUIProgressBar.cpp
+  CEGUIProgressBarProperties.cpp
+  CEGUIPushButton.cpp
+  CEGUIRadioButton.cpp
+  CEGUIRadioButtonProperties.cpp
+  CEGUIScrollablePane.cpp
+  CEGUIScrollablePaneProperties.cpp
+  CEGUIScrollbar.cpp
+  Создание кода...
+  Компиляция...
+  CEGUIScrollbarProperties.cpp
+  CEGUIScrolledContainer.cpp
+  CEGUIScrolledContainerProperties.cpp
+  CEGUIScrolledItemListBase.cpp
+  CEGUIScrolledItemListBaseProperties.cpp
+  CEGUISequentialLayoutContainer.cpp
+  CEGUISlider.cpp
+  CEGUISliderProperties.cpp
+  CEGUISpinner.cpp
+  CEGUISpinnerProperties.cpp
+D:\VCMPDEVELOPING\Vendor\CEGUI\cegui\src\elements\CEGUISpinnerProperties.cpp(40,100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\VCMPDEVELOPING\Vendor\CEGUI\cegui\src\elements\CEGUISpinnerProperties.cpp(52,96): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\VCMPDEVELOPING\Vendor\CEGUI\cegui\src\elements\CEGUISpinnerProperties.cpp(64,100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\VCMPDEVELOPING\Vendor\CEGUI\cegui\src\elements\CEGUISpinnerProperties.cpp(76,100): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  CEGUITabButton.cpp
+  CEGUITabControl.cpp
+  CEGUITabControlProperties.cpp
+  CEGUIThumb.cpp
+  CEGUIThumbProperties.cpp
+  CEGUITitlebar.cpp
+  CEGUITitlebarProperties.cpp
+  CEGUITooltip.cpp
+  CEGUITooltipProperties.cpp
+  CEGUITree.cpp
+  Создание кода...
+  Компиляция...
+  CEGUITreeItem.cpp
+  CEGUITreeProperties.cpp
+  CEGUIVerticalLayoutContainer.cpp
+  CEGUIFalagard_xmlHandler.cpp
+  CEGUIFalComponentBase.cpp
+  CEGUIFalDimensions.cpp
+  CEGUIFalFrameComponent.cpp
+  CEGUIFalImageryComponent.cpp
+  CEGUIFalImagerySection.cpp
+  CEGUIFalLayerSpecification.cpp
+  CEGUIFalNamedArea.cpp
+  CEGUIFalPropertyDefinition.cpp
+  CEGUIFalPropertyDefinitionBase.cpp
+  CEGUIFalPropertyInitialiser.cpp
+  CEGUIFalPropertyLinkDefinition.cpp
+  CEGUIFalSectionSpecification.cpp
+  CEGUIFalStateImagery.cpp
+  CEGUIFalTextComponent.cpp
+  CEGUIFalWidgetComponent.cpp
+  CEGUIFalWidgetLookFeel.cpp
+  Создание кода...
+  Компиляция...
+  CEGUIFalWidgetLookManager.cpp
+  CEGUIFalXMLEnumHelper.cpp
+  ioapi.cpp
+  iowin32.cpp
+  unzip.cpp
+  Создание кода...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(D:\VCMPDEVELOPING\Vendor\CEGUI\lib\CEGUIBase.lib) не соответствует значению свойства выходного файла (D:\VCMPDEVELOPING\Vendor\CEGUI\lib\CEGUIBase_Static.lib) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1547,5): warning MSB8012: TargetName(CEGUIBase) не соответствует значению свойства выходного файла (CEGUIBase_Static) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+  CEGUIBase.vcxproj -> D:\VCMPDEVELOPING\Vendor\CEGUI\lib\CEGUIBase.lib

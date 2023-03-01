@@ -1,0 +1,1 @@
+D:\VCMPDEVELOPING\Vendor\CEGUI\dependencies\lpng142\projects\Release\libpng.lib

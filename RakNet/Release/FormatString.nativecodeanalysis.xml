@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FormatString.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Использовать gsl::at() вместо непроверенного оператора с нижним индексом (bounds.4).</DESCRIPTION>
+    <FUNCTION>FormatString</FUNCTION>
+    <DECORATED>FormatString</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FormatString.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Использовать gsl::at() вместо непроверенного оператора с нижним индексом (bounds.4).</DESCRIPTION>
+    <FUNCTION>FormatString</FUNCTION>
+    <DECORATED>FormatString</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FormatString.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Использовать gsl::at() вместо непроверенного оператора с нижним индексом (bounds.4).</DESCRIPTION>
+    <FUNCTION>FormatString</FUNCTION>
+    <DECORATED>FormatString</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FormatString.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>В качестве индексов массивов используйте только константные выражения (bounds.2).</DESCRIPTION>
+    <FUNCTION>FormatString</FUNCTION>
+    <DECORATED>FormatString</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FormatString.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Выражение "`FormatString'::`2'::text[`FormatString'::`2'::textIndex]": не допускайте вырождения массива в указатель (bounds.3).</DESCRIPTION>
+    <FUNCTION>FormatString</FUNCTION>
+    <DECORATED>FormatString</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FormatString.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>В качестве индексов массивов используйте только константные выражения (bounds.2).</DESCRIPTION>
+    <FUNCTION>FormatString</FUNCTION>
+    <DECORATED>FormatString</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FormatString.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>В качестве индексов массивов используйте только константные выражения (bounds.2).</DESCRIPTION>
+    <FUNCTION>FormatString</FUNCTION>
+    <DECORATED>FormatString</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FormatString.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Выражение "`FormatString'::`2'::text[`FormatString'::`2'::textIndex]": не допускайте вырождения массива в указатель (bounds.3).</DESCRIPTION>
+    <FUNCTION>FormatString</FUNCTION>
+    <DECORATED>FormatString</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FormatString.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26492</DEFECTCODE>
+    <DESCRIPTION>Не используйте const_cast для приведения типов const или volatile (type.3).</DESCRIPTION>
+    <FUNCTION>FormatString</FUNCTION>
+    <DECORATED>FormatString</DECORATED>
+    <FUNCLINE>7</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\VCMPDEVELOPING\RakNet\</FILEPATH>
+      <FILENAME>FormatString.cpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26492</DEFECTCODE>
+    <DESCRIPTION>Не используйте const_cast для приведения типов const или volatile (type.3).</DESCRIPTION>
+    <FUNCTION>FormatStringTS</FUNCTION>
+    <DECORATED>FormatStringTS</DECORATED>
+    <FUNCLINE>23</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

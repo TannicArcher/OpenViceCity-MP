@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f2d2437b-9375-4c2b-884d-97d2331dbd04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{bd23e9d5-8219-4e4f-927f-6e9a688c930b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\d3d">
+      <UniqueIdentifier>{4c8e6841-e56a-4599-b9a5-f79c0fb883a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\d3dhook">
+      <UniqueIdentifier>{bc8425dd-4321-49bd-89f6-d0b1231456ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\dinputhook">
+      <UniqueIdentifier>{7d02f44e-d5b1-4c7d-b0b8-c0cde588bec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{76415837-4f33-497f-ad34-2df6372b9290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting">
+      <UniqueIdentifier>{8bddc5df-99ce-42f8-9ff9-9a5602c32bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{b857a2f5-d554-443e-a88c-d6969ba1bedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{78a1fa4f-b403-4e20-ae7b-6bd946f04d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\TinyXML">
+      <UniqueIdentifier>{609d8164-8034-4dfd-9c89-d0d1cb764e50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game\address.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\AimSync.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\CCamera.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\CEntity.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\CGame.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\CObject.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\common.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\CPhysical.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\CPickup.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\CPlayerPed.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\CPools.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\CText.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\CVehicle.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\CWorld.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\KeySync.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\scripting.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\util.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="anticheat.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="CBBFont.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="CChatWindow.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="CCmdWindow.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="CNameTags.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetStats.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="CScoreBoard.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="CScreenShot.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\d3d8.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\d3d8caps.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\d3d8types.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\d3dfont.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\d3dutil.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\d3dx8.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\d3dx8core.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\d3dx8effect.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\d3dx8math.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\d3dx8mesh.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\d3dx8shape.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\d3dx8tex.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\dinput.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\dxfile.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d8\include\dxutil.h">
+      <Filter>General\d3d</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dhook\d3d8hook.h">
+      <Filter>General\d3dhook</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dhook\IDirect3D8Hook.h">
+      <Filter>General\d3dhook</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dhook\IDirect3DDevice8Hook.h">
+      <Filter>General\d3dhook</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dhook\IDirectInput8Hook.h">
+      <Filter>General\dinputhook</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dhook\IDirectInputDevice8Hook.h">
+      <Filter>General\dinputhook</Filter>
+    </ClInclude>
+    <ClInclude Include="net\CCheckPoints.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\CLocalPlayer.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\CNetworkManager.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\CObjectManager.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\CPickupManager.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\CPlayerManager.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\CRemotePlayer.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\CSpawnSelection.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\CTextManager.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\CVehicleManager.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\netrpc.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\CScript.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\CScripts.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimerPool.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\sq_client_natives.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\sq_functions.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\sq_graphic_natives.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\sq_script_natives.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\sq_timer_natives.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="scripting\sq_utils.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\CGUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\CXML.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\TinyXML\ticpp.h">
+      <Filter>Shared\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\TinyXML\ticpprc.h">
+      <Filter>Shared\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\TinyXML\tinystr.h">
+      <Filter>Shared\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\TinyXML\tinyxml.h">
+      <Filter>Shared\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="StdInc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game\AimSync.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CCamera.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CEntity.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CGame.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CObject.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CPhysical.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CPickup.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CPlayerPed.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CPools.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CText.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CVehicle.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\CWorld.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\hooks.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\KeySync.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\scripting.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\util.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="anticheat.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="CBBFont.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="CChatWindow.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="CCmdWindow.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdprocs.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="CNameTags.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="CNetStats.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="CScoreBoard.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="CScreenshot.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="subclass.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8\d3dfont.cpp">
+      <Filter>General\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8\d3dutil.cpp">
+      <Filter>General\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d8\dxutil.cpp">
+      <Filter>General\d3d</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dhook\d3d8hook.cpp">
+      <Filter>General\d3dhook</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dhook\IDirect3D8Hook.cpp">
+      <Filter>General\d3dhook</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dhook\IDirect3DDevice8Hook.cpp">
+      <Filter>General\d3dhook</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dhook\IDirectInput8Hook.cpp">
+      <Filter>General\dinputhook</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dhook\IDirectInputDevice8Hook.cpp">
+      <Filter>General\dinputhook</Filter>
+    </ClCompile>
+    <ClCompile Include="net\CCheckPoints.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\CLocalPlayer.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\CNetworkManager.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\CObjectManager.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\CPickupManager.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\CPlayerManager.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\CRemotePlayer.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\CSpawnSelection.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\CTextManager.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\CVehicleManager.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\netrpc.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\CScript.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\CScripts.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimerPool.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\sq_client_natives.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\sq_functions.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\sq_graphic_natives.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\sq_script_natives.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\sq_timer_natives.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="scripting\sq_utils.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\CGUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\CXML.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\TinyXML\ticpp.cpp">
+      <Filter>Shared\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\TinyXML\tinystr.cpp">
+      <Filter>Shared\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\TinyXML\tinyxml.cpp">
+      <Filter>Shared\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\TinyXML\tinyxmlerror.cpp">
+      <Filter>Shared\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\TinyXML\tinyxmlparser.cpp">
+      <Filter>Shared\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="StdInc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="exceptbox.rc">
+      <Filter>General</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,475 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30147.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00C2D1C0 -il C:\\Users\\RuslanS\\AppData\\Local\\Temp\\_CL_8eaa8feaast -typedil -f EncodeClassName.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930147 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -GF -Og -Ot -Oi -ltcg -DCODE_ANALYSIS -D_CRT_SECURE_NO_WARNINGS -D_CRT_SECURE_NO_DEPRECATE -D_SERVER -D_MBCS -EHs -D_CPPUNWIND -EHc -MT -clrNoPureCRT -D_MT -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -FoRelease\\EncodeClassName.obj -FdD:\\VCMPDEVELOPING\\Release\\RakNet.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\VCMPDEVELOPING\\RakNet -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\AllRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\VCMPDEVELOPING\\RakNet\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I D:\\VCMPDEVELOPING\\RakNet\\Include\\um -I D:\\VCMPDEVELOPING\\RakNet\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/FormatString.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8906f35382798d0e16a081d5f6bb3dd7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/formatstring.h"
+          },
+          "hashes": {
+            "md5": "744159b64803114510c5b002e57ae0ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/export.h"
+          },
+          "hashes": {
+            "md5": "87dbce19ee95a8ae5740ef5083a3e63d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/raknetdefines.h"
+          },
+          "hashes": {
+            "md5": "4a947298774e5409c52b403e0b7f8e52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/raknetdefinesoverrides.h"
+          },
+          "hashes": {
+            "md5": "8b61ae32f834c32c612a101daf7d185c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/linuxstrings.h"
+          },
+          "hashes": {
+            "md5": "d9e12550344a9909df53cc8b9999bc96"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileOperations.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "5c471bde703cb6a3f1e13ae278fe2f08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/rakmemoryoverride.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "1ddc900d259b1d677593422af12679c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/rakalloca.h"
+          },
+          "hashes": {
+            "md5": "6365877e95864938f7c58a8e97dd791d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/_findfirst.h"
+          },
+          "hashes": {
+            "md5": "8ae0d9794b67a5434adbeae88f9a3570"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/fileoperations.h"
+          },
+          "hashes": {
+            "md5": "66a751a675f1a4e7f0bcc7ac8d22545c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/RakNetTypes.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "52788941b0b48c03714a310f508914a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/PluginInterface2.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "4801b82053b20a7a35ed18802b7597da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/DS_List.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "dec74722c7eca41787d6c7babe0e775b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/RakString.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "f383fc4fec729ca12aadb833883a4b8c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/BitStream.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "bce523d06c581ebab9591eaddfb08922"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileListNodeContext.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "5779b31dc715cfe0eb8cc792fe6d167d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileList.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "5aa0416ba3495a625c46c705e1e8e01a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileListTransferCBInterface.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "3251aaa28ef27bcce5a99556c33800b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/RakNetSmartPtr.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "f795bdc87b7b96199639712f8067f570"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/RakPeerInterface.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "fe7c85807beac208ca567a2a223321db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/RakNetStatistics.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "d69a3f7b0d0590f644be10ec20d86861"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/IncrementalReadInterface.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "120b52e5ba93d6a59dcb9bd1d14afd03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileListTransfer.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "02a11ff98b96e83372ad9918cf642462"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/DS_Map.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "48cbd29bd212e4aa3b8c119f20a99c5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/DS_Queue.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "eaa4d64c90b40c0bdeed79fa86c0cd98"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileListTransfer.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "2b9ced0a03946723c3f4b98ca6104c53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/DS_OrderedList.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "d5d4922ac99a30041368deb2991129d3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/nativefeatureincludes.h"
+          },
+          "hashes": {
+            "md5": "1e872a5c56487a48de3c78ab95964e9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/nativefeatureincludesoverrides.h"
+          },
+          "hashes": {
+            "md5": "8e948fd6ca5f276ffb7cb4388de519f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/nativetypes.h"
+          },
+          "hashes": {
+            "md5": "5b9ae69657875f0f667e6c0a5c8f95bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/raknettime.h"
+          },
+          "hashes": {
+            "md5": "600c0306681cd0e9b3199032f294637d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/packetpriority.h"
+          },
+          "hashes": {
+            "md5": "40ff781e103f4cc6d6542c8aade62d87"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/rakassert.h"
+          },
+          "hashes": {
+            "md5": "4ed6996cb618c8f112a8e6dd72ddc5d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/simplemutex.h"
+          },
+          "hashes": {
+            "md5": "b1ba5af283ecee03036dae6f62aecafa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/windowsincludes.h"
+          },
+          "hashes": {
+            "md5": "1689d972e557d3eb3901a8f013d8faa0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/ds_huffmanencodingtree.h"
+          },
+          "hashes": {
+            "md5": "dd09a3d6e69141a5d77e7f63205c8391"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/ds_huffmanencodingtreenode.h"
+          },
+          "hashes": {
+            "md5": "872bc52ad72c031f6000c31e8af3b0d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/ds_linkedlist.h"
+          },
+          "hashes": {
+            "md5": "46dbfc2cf41a3d977491dacf9f072106"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/stringcompressor.h"
+          },
+          "hashes": {
+            "md5": "39dc2198cb58fc933c365b2640e10bd3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/messageidentifiers.h"
+          },
+          "hashes": {
+            "md5": "df7096f3db9b2eb7a90526e32e535225"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/raknetsocket.h"
+          },
+          "hashes": {
+            "md5": "c64de294bed97ca6964dc9de92c66af7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/FileList.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "993346300c19a84c366e78a448242c82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/superfasthash.h"
+          },
+          "hashes": {
+            "md5": "4f048240df0ed920357d3ce59a7bd2ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/VCMPDEVELOPING/RakNet/EpochTimeToString.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "c778d1f0db49a22c9bbac137a67875c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/epochtimetostring.h"
+          },
+          "hashes": {
+            "md5": "991d50173ccef61670b9c8497409a312"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/vcmpdeveloping/raknet/encodeclassname.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "81051bcc2cf1bedf378224b0a93e2877"
+          }
+        }
+      ]
+    }
+  ]
+}

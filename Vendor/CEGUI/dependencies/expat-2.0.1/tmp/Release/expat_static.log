@@ -1,0 +1,9 @@
+﻿  xmlparse.c
+  xmlrole.c
+  xmltok.c
+  xmltok_impl.c
+  xmltok_ns.c
+  Создание кода...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(D:\VCMPDEVELOPING\Vendor\CEGUI\dependencies\expat-2.0.1\bin\Release\expat_static.lib) не соответствует значению свойства выходного файла (D:\VCMPDEVELOPING\Vendor\CEGUI\dependencies\expat-2.0.1\bin\Release\libexpat.lib) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1547,5): warning MSB8012: TargetName(expat_static) не соответствует значению свойства выходного файла (libexpat) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+  expat_static.vcxproj -> D:\VCMPDEVELOPING\Vendor\CEGUI\dependencies\expat-2.0.1\bin\Release\expat_static.lib

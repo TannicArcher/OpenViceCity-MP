@@ -1,0 +1,1 @@
+D:\VCMPDEVELOPING\Vendor\CEGUI\dependencies\jpeg-6b\projects\Release\libjpeg.lib

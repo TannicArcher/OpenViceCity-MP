@@ -1,0 +1,6 @@
+﻿  CEGUIExpatParser.cpp
+  CEGUIExpatParserModule.cpp
+  Создание кода...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1545,5): warning MSB8012: TargetPath(D:\VCMPDEVELOPING\Vendor\CEGUI\lib\CEGUIExpatParser.lib) не соответствует значению свойства выходного файла (D:\VCMPDEVELOPING\Vendor\CEGUI\lib\CEGUIExpatParser_Static.lib) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1547,5): warning MSB8012: TargetName(CEGUIExpatParser) не соответствует значению свойства выходного файла (CEGUIExpatParser_Static) для Library. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Lib.OutputFile).
+  CEGUIExpatParser.vcxproj -> D:\VCMPDEVELOPING\Vendor\CEGUI\lib\CEGUIExpatParser.lib
